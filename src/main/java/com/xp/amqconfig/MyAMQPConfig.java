@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @Author xp
  * @CreateTime 2019/03/12  23:32
- * @Function 自定义messageConverter将消息对象转化为json发送给队列
+ * @Function 自定义messageConverter将消息对象转化为json发送给消息队列
  */
 @Configuration
 public class MyAMQPConfig {

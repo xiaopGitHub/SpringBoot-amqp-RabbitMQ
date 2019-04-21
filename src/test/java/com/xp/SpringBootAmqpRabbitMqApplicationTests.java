@@ -43,9 +43,8 @@ public class SpringBootAmqpRabbitMqApplicationTests {
     }
 
     /**
-     *测试发送消息：
-     *1.单播模式下点对点消息
-     *
+     * 测试发送消息：
+     * 1.单播模式下点对点消息
      * */
     @Test
     public void contextLoads() {

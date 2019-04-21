@@ -1,0 +1,17 @@
+
+SpringBoot整合RabbitMQ
+
+1. 引入依赖
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-amqp</artifactId>
+    </dependency>
+
+2. 配置文件配置rabbitmq
+    spring.rabbitmq.host=192.168.1.105
+    spring.rabbitmq.port=5672
+    spring.rabbitmq.username=guest
+    spring.rabbitmq.password=guest
+    spring.rabbitmq.virtual-host=/
+
+3.

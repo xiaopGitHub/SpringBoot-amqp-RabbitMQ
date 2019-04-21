@@ -25,7 +25,7 @@ public class BookService {
 
 
     /**
-     * 监听获取消息头信息
+     * 监听atguigu队列,获取消息头信息
      * */
     @RabbitListener(queues = "atguigu")
     public void receiveHeader(Message message){
